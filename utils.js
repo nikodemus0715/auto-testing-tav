@@ -13,8 +13,14 @@ var findElementByObject = function(object){
   return findElement(object.locator, object.type);
 }
 
+var checkURL = function(url){
+  return browser.getCurrentUrl().then(function(response){
+    return url == response;
+  })
+}
 
 module.exports = {
   findElement: findElement,
-  findElementByObject: findElementByObject
+  findElementByObject: findElementByObject,
+  checkURL: checkURL
 }
