@@ -1,0 +1,22 @@
+{
+  "name": "auto-testing-tav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikodemus0715/auto-testing-tav.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikodemus0715/auto-testing-tav/issues"
+  },
+  "homepage": "https://github.com/nikodemus0715/auto-testing-tav#readme",
+  "devDependencies": {
+    "protractor-html-screenshot-reporter": "0.0.21"
+  }
+}
